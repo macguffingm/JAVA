@@ -1,0 +1,15 @@
+package javalec;
+
+public class Lecture_01_02 {
+
+	public static void main(String[] args) {
+		int sum = calcu(200, 30);
+		//        Lecture_01_02.calcu(200, 30); 이라고 메소드 앞에 클래스를 입력하여도 결과는 같음. 왜냐하면 하단의 calcu(int k, int j)가 이미 Lecture_01_02 클래스 안에 포함되어 있음
+		System.out.println("계산결과는 : " + sum);
+	}
+	
+	public static int calcu(int k, int j) {
+		return k + j;
+	}
+
+}
