@@ -1,0 +1,41 @@
+package lecture_02_01;
+
+public class ArithmeticTest {
+
+	public static void main(String[] args) {
+		//System.out.println(5!=3);	
+		//System.out.println(5>3);
+		//System.out.println(!(5<=3));
+		System.out.println(true && true);
+		System.out.println(true && false);
+		System.out.println(false && true);
+		System.out.println(false && false);
+		System.out.println("==============================");
+		System.out.println(true || true);
+		System.out.println(true || false);
+		System.out.println(false || true);
+		System.out.println(false || false);
+		System.out.println("복합연산 예제");
+		System.out.println(3>5 && 6>2);
+		System.out.println("==============================");
+		System.out.println(3>5 || 6>2);
+		System.out.println("비트 논리 연산 예제");
+		System.out.println(true & true);
+		System.out.println(true & false);
+		System.out.println(false & true);
+		System.out.println(false & false);
+		System.out.println("==============================");
+		System.out.println(true | true);
+		System.out.println(true | false);
+		System.out.println(false | true);
+		System.out.println(false | false);
+		System.out.println("복합연산 예제");
+		System.out.println(3>5 & 6>2);
+		System.out.println(3>5 | 6>2);
+		System.out.println("숫자를 이용한 비트 논리 연산");
+		System.out.println(3 & 6);
+		System.out.println(3 | 6);
+		System.out.println(3 ^ 6); //비트 익스클루시브 오아
+	}
+
+}
