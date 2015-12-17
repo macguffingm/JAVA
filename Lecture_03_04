@@ -1,0 +1,34 @@
+package Folder;
+
+import java.util.Scanner;
+
+public class Lecture_03_04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1;
+		
+		Scanner scan = new Scanner (System.in);
+		System.out.println("성적을 입력하세요 : ");
+		num1 = scan.nextInt();
+		
+		if (num1 >= 0 && num1 <= 100 ){
+			if(num1 >= 90){
+				System.out.println("귀하의 점수는 \"수\" 입니다.");
+			} else if (num1 >= 80){
+				System.out.println("귀하의 점수는 \"우\" 입니다.");
+			} else if (num1 >= 70){
+				System.out.println("귀하의 점수는 \"미\" 입니다.");
+			} else if (num1 >= 60){
+				System.out.println("귀하의 점수는 \"양\" 입니다.");
+			} else {
+				System.out.println("귀하의 점수는 \"가\" 입니다.");
+			}
+			System.out.println("수고하셨습니다.");
+		} else {
+			System.out.println("잘못된 숫자를 입력하셨습니다.");
+		}
+		
+	}
+
+}
