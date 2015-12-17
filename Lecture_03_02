@@ -1,0 +1,30 @@
+package Folder;
+
+import java.util.Scanner;
+
+public class Lecture_03_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 이름, 전화번호, 주소, ID, 패스워드 입력받아서 출력하는 프로그램
+		String name, add, tel, id, pw;
+		
+		Scanner scan = new Scanner (System.in);
+		// 네트워크에서 입력받고 싶을 경우 Scanner indata = new Scanner(System.in);
+		System.out.println("이름 : ");
+		name = scan.nextLine();
+		// 네트워크에서 입력받는 경우 name = indata.nextLine();
+		System.out.println("전화번호 : ");
+		tel = scan.nextLine();
+		System.out.println("주소 : ");
+		add = scan.nextLine();
+		System.out.println("아이디 : ");
+		id = scan.nextLine();
+		System.out.println("비밀번호 : ");
+		pw = scan.nextLine();
+		
+		System.out.println("이름 : " + name + "  전화번호 : " + tel + "  주소 : " + add);
+		System.out.println("아이디 : " + id + "  비밀번호 : " + pw);
+	}
+
+}
