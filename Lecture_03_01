@@ -1,0 +1,35 @@
+package Folder;
+
+import java.util.Scanner;
+
+public class Lecture_03_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String iName;
+		int kor;
+		int eng;
+		int math;
+		double average;
+		int total;
+		
+		Scanner scan = new Scanner (System.in);
+		System.out.println("이름 : ");
+		iName = scan.nextLine();
+		System.out.println("국어 성적 : ");
+		kor = scan.nextInt();
+		System.out.println("영어 성적 : ");
+		eng = scan.nextInt();
+		System.out.println("수학 성적 : ");
+		math = scan.nextInt();
+		
+		total = kor + eng + math ;
+		average = total / 3.0 ;
+		
+		System.out.println(iName + "의 성적");		
+		System.out.println("국어점수 : " + kor + " 영어점수 : " + eng + " 수학점수 : " + math);
+		System.out.println("총점 = " + total + "  평균 = " + average);
+		
+	}
+
+}
