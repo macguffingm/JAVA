@@ -1,0 +1,23 @@
+package Folder;
+
+import java.util.Scanner;
+
+public class Lecture_03_03 {
+
+	public static void main(String[] args) {
+		// 숫자를 받아서 그게 1<<100 이면 숫자를 , 아니면 수고하셨습니다.만 출력
+		int num1;
+				
+		Scanner scan = new Scanner (System.in);
+		// 레퍼런스 타입 변수라서 scan 부분의 이름은 뭐가되어도 상관 없음
+		System.out.println("숫자를 입력하세요 : ");
+		num1 = scan.nextInt();
+		
+		if (num1 % 7 == 0){
+			System.out.println("입력한 숫자는 7의 배수 입니다.");
+		}
+		System.out.println("수고하셨습니다.");
+		
+	}
+
+}
